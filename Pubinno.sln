@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pubinno.Core", "Pubinno.Cor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pubinno.BusinessLogic", "Pubinno.BusinessLogic\Pubinno.BusinessLogic.csproj", "{88573120-646E-4762-9AAE-D182E85B8C56}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pubinno.Models", "Pubinno.Models\Pubinno.Models.csproj", "{4DB304E4-5411-4C66-9A62-5F406CDD6002}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{88573120-646E-4762-9AAE-D182E85B8C56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88573120-646E-4762-9AAE-D182E85B8C56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88573120-646E-4762-9AAE-D182E85B8C56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DB304E4-5411-4C66-9A62-5F406CDD6002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB304E4-5411-4C66-9A62-5F406CDD6002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB304E4-5411-4C66-9A62-5F406CDD6002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB304E4-5411-4C66-9A62-5F406CDD6002}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
