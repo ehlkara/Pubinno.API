@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pubinno.API", "Pubinno.API\Pubinno.API.csproj", "{5B53551C-8B45-4073-A477-345FC28C9ABD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pubinno.API", "Pubinno.API\Pubinno.API.csproj", "{5B53551C-8B45-4073-A477-345FC28C9ABD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pubinno.Shared", "Pubinno.Shared\Pubinno.Shared.csproj", "{E26624CE-BA70-4409-9D89-27B20B624C12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pubinno.DataAccess", "Pubinno.DataAccess\Pubinno.DataAccess.csproj", "{CF06C656-01AC-4520-9C79-DDCB03C4C9E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pubinno.Core", "Pubinno.Core\Pubinno.Core.csproj", "{DF5BC6F3-A236-4B36-AB47-FB6F72BF483D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pubinno.BusinessLogic", "Pubinno.BusinessLogic\Pubinno.BusinessLogic.csproj", "{88573120-646E-4762-9AAE-D182E85B8C56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{5B53551C-8B45-4073-A477-345FC28C9ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B53551C-8B45-4073-A477-345FC28C9ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B53551C-8B45-4073-A477-345FC28C9ABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E26624CE-BA70-4409-9D89-27B20B624C12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E26624CE-BA70-4409-9D89-27B20B624C12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E26624CE-BA70-4409-9D89-27B20B624C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E26624CE-BA70-4409-9D89-27B20B624C12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF06C656-01AC-4520-9C79-DDCB03C4C9E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF06C656-01AC-4520-9C79-DDCB03C4C9E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF06C656-01AC-4520-9C79-DDCB03C4C9E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF06C656-01AC-4520-9C79-DDCB03C4C9E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF5BC6F3-A236-4B36-AB47-FB6F72BF483D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF5BC6F3-A236-4B36-AB47-FB6F72BF483D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF5BC6F3-A236-4B36-AB47-FB6F72BF483D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF5BC6F3-A236-4B36-AB47-FB6F72BF483D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88573120-646E-4762-9AAE-D182E85B8C56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88573120-646E-4762-9AAE-D182E85B8C56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88573120-646E-4762-9AAE-D182E85B8C56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88573120-646E-4762-9AAE-D182E85B8C56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

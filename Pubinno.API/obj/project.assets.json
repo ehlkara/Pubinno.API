@@ -200,11 +200,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ehlul\\source\\repos\\Pubinno\\Pubinno.API\\Pubinno.API.csproj",
+      "projectUniqueName": "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.API\\Pubinno.API.csproj",
       "projectName": "Pubinno.API",
-      "projectPath": "C:\\Users\\ehlul\\source\\repos\\Pubinno\\Pubinno.API\\Pubinno.API.csproj",
+      "projectPath": "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.API\\Pubinno.API.csproj",
       "packagesPath": "C:\\Users\\ehlul\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ehlul\\source\\repos\\Pubinno\\Pubinno.API\\obj\\",
+      "outputPath": "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
