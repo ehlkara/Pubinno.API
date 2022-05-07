@@ -4,6 +4,100 @@
     "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.DataAccess\\Pubinno.DataAccess.csproj": {}
   },
   "projects": {
+    "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.Core\\Pubinno.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.Core\\Pubinno.Core.csproj",
+        "projectName": "Pubinno.Core",
+        "projectPath": "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.Core\\Pubinno.Core.csproj",
+        "packagesPath": "C:\\Users\\ehlul\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ehlul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.Models\\Pubinno.Models.csproj": {
+                "projectPath": "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.Models\\Pubinno.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Abp": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.DataAccess\\Pubinno.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -33,7 +127,144 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.Core\\Pubinno.Core.csproj": {
+                "projectPath": "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.Core\\Pubinno.Core.csproj"
+              },
+              "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.Shared\\Pubinno.Shared.csproj": {
+                "projectPath": "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.Shared\\Pubinno.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.Models\\Pubinno.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.Models\\Pubinno.Models.csproj",
+        "projectName": "Pubinno.Models",
+        "projectPath": "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.Models\\Pubinno.Models.csproj",
+        "packagesPath": "C:\\Users\\ehlul\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ehlul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.Shared\\Pubinno.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.Shared\\Pubinno.Shared.csproj",
+        "projectName": "Pubinno.Shared",
+        "projectPath": "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.Shared\\Pubinno.Shared.csproj",
+        "packagesPath": "C:\\Users\\ehlul\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ehlul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.Models\\Pubinno.Models.csproj": {
+                "projectPath": "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.Models\\Pubinno.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

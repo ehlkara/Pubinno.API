@@ -3186,6 +3186,10 @@
       "Pubinno.DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Pubinno.Core": "1.0.0",
+          "Pubinno.Shared": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Pubinno.DataAccess.dll": {}
         },
@@ -3204,6 +3208,19 @@
         },
         "runtime": {
           "bin/placeholder/Pubinno.Models.dll": {}
+        }
+      },
+      "Pubinno.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Pubinno.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Pubinno.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Pubinno.Shared.dll": {}
         }
       }
     }
@@ -10115,6 +10132,11 @@
       "type": "project",
       "path": "../Pubinno.Models/Pubinno.Models.csproj",
       "msbuildProject": "../Pubinno.Models/Pubinno.Models.csproj"
+    },
+    "Pubinno.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Pubinno.Shared/Pubinno.Shared.csproj",
+      "msbuildProject": "../Pubinno.Shared/Pubinno.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
