@@ -3156,6 +3156,16 @@
           "lib/netstandard2.0/TimeZoneConverter.dll": {}
         }
       },
+      "Pubinno.BusinessLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Pubinno.BusinessLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Pubinno.BusinessLogic.dll": {}
+        }
+      },
       "Pubinno.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -3171,6 +3181,16 @@
         },
         "runtime": {
           "bin/placeholder/Pubinno.Core.dll": {}
+        }
+      },
+      "Pubinno.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Pubinno.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Pubinno.DataAccess.dll": {}
         }
       },
       "Pubinno.Models/1.0.0": {
@@ -10076,10 +10096,20 @@
         "timezoneconverter.nuspec"
       ]
     },
+    "Pubinno.BusinessLogic/1.0.0": {
+      "type": "project",
+      "path": "../Pubinno.BusinessLogic/Pubinno.BusinessLogic.csproj",
+      "msbuildProject": "../Pubinno.BusinessLogic/Pubinno.BusinessLogic.csproj"
+    },
     "Pubinno.Core/1.0.0": {
       "type": "project",
       "path": "../Pubinno.Core/Pubinno.Core.csproj",
       "msbuildProject": "../Pubinno.Core/Pubinno.Core.csproj"
+    },
+    "Pubinno.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../Pubinno.DataAccess/Pubinno.DataAccess.csproj",
+      "msbuildProject": "../Pubinno.DataAccess/Pubinno.DataAccess.csproj"
     },
     "Pubinno.Models/1.0.0": {
       "type": "project",
@@ -10092,7 +10122,9 @@
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.16",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.16",
+      "Pubinno.BusinessLogic >= 1.0.0",
       "Pubinno.Core >= 1.0.0",
+      "Pubinno.DataAccess >= 1.0.0",
       "Serilog >= 2.11.0",
       "Serilog.AspNetCore >= 5.0.0",
       "Serilog.Enrichers.Environment >= 2.2.0",
@@ -10141,8 +10173,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.BusinessLogic\\Pubinno.BusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.BusinessLogic\\Pubinno.BusinessLogic.csproj"
+            },
             "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.Core\\Pubinno.Core.csproj": {
               "projectPath": "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.Core\\Pubinno.Core.csproj"
+            },
+            "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.DataAccess\\Pubinno.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.DataAccess\\Pubinno.DataAccess.csproj"
             }
           }
         }

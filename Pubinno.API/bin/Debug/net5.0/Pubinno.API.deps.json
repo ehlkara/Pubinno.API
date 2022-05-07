@@ -36,7 +36,9 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.16",
           "Microsoft.EntityFrameworkCore.Design": "5.0.16",
+          "Pubinno.BusinessLogic": "1.0.0",
           "Pubinno.Core": "1.0.0",
+          "Pubinno.DataAccess": "1.0.0",
           "Serilog": "2.11.0",
           "Serilog.AspNetCore": "5.0.0",
           "Serilog.Enrichers.Environment": "2.2.0",
@@ -2646,6 +2648,14 @@
           "lib/netstandard2.0/TimeZoneConverter.dll": {}
         }
       },
+      "Pubinno.BusinessLogic/1.0.0": {
+        "runtime": {
+          "Pubinno.BusinessLogic.dll": {}
+        },
+        "compile": {
+          "Pubinno.BusinessLogic.dll": {}
+        }
+      },
       "Pubinno.Core/1.0.0": {
         "dependencies": {
           "Abp": "7.2.0",
@@ -2659,6 +2669,14 @@
         },
         "compile": {
           "Pubinno.Core.dll": {}
+        }
+      },
+      "Pubinno.DataAccess/1.0.0": {
+        "runtime": {
+          "Pubinno.DataAccess.dll": {}
+        },
+        "compile": {
+          "Pubinno.DataAccess.dll": {}
         }
       },
       "Pubinno.Models/1.0.0": {
@@ -5684,7 +5702,17 @@
       "path": "timezoneconverter/5.0.0",
       "hashPath": "timezoneconverter.5.0.0.nupkg.sha512"
     },
+    "Pubinno.BusinessLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Pubinno.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Pubinno.DataAccess/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

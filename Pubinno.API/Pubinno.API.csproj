@@ -25,7 +25,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Pubinno.BusinessLogic\Pubinno.BusinessLogic.csproj" />
     <ProjectReference Include="..\Pubinno.Core\Pubinno.Core.csproj" />
+    <ProjectReference Include="..\Pubinno.DataAccess\Pubinno.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>

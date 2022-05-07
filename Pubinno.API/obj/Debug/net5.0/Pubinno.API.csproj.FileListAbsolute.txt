@@ -147,3 +147,7 @@ C:\Users\ehlul\OneDrive\Belgeler\GitHub\Pubinno.API\Pubinno.API\obj\Debug\net5.0
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\Pubinno.API\Pubinno.API\obj\Debug\net5.0\Pubinno.API.pdb
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\Pubinno.API\Pubinno.API\obj\Debug\net5.0\Pubinno.API.genruntimeconfig.cache
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\Pubinno.API\Pubinno.API\obj\Debug\net5.0\ref\Pubinno.API.dll
+C:\Users\ehlul\OneDrive\Belgeler\GitHub\Pubinno.API\Pubinno.API\bin\Debug\net5.0\Pubinno.BusinessLogic.dll
+C:\Users\ehlul\OneDrive\Belgeler\GitHub\Pubinno.API\Pubinno.API\bin\Debug\net5.0\Pubinno.DataAccess.dll
+C:\Users\ehlul\OneDrive\Belgeler\GitHub\Pubinno.API\Pubinno.API\bin\Debug\net5.0\Pubinno.BusinessLogic.pdb
+C:\Users\ehlul\OneDrive\Belgeler\GitHub\Pubinno.API\Pubinno.API\bin\Debug\net5.0\Pubinno.DataAccess.pdb
