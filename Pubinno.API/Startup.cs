@@ -11,7 +11,11 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Pubinno.BusinessLogic.Abstract.IUserBLL;
+using Pubinno.BusinessLogic.PubinnoServices.UserServices;
 using Pubinno.Core.Context;
+using Pubinno.DataAccess.Abstract;
+using Pubinno.DataAccess.Concrete;
 using Pubinno.Models.Entities.Pubinno.IdentityAuth;
 using Serilog;
 using System;
@@ -36,6 +40,9 @@ namespace Pubinno.API
         {
             services.AddAutoMapper(typeof(Startup));
             services.AddDbContext<PubinnoDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Default"), options => options.MigrationsAssembly("Pubinno.Core")).UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking));
+
+            services.AddScoped<IUserDAL, UserDAL>();
+            services.AddScoped<IUserBLL, UserBLL>();
 
             // For Identity  
             services.AddIdentity<PubinnoUser, PubinnoRole>()
