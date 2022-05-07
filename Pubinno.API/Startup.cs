@@ -65,6 +65,14 @@ namespace Pubinno.API
                 };
             });
 
+            services.AddCors(option =>
+            {
+                option.AddDefaultPolicy(builder =>
+                {
+                    builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+                });
+            });
+
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -88,6 +96,8 @@ namespace Pubinno.API
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors();
 
             app.UseAuthentication();
             app.UseAuthorization();

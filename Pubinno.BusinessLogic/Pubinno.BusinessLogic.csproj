@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Pubinno.DataAccess\Pubinno.DataAccess.csproj" />
     <ProjectReference Include="..\Pubinno.Shared\Pubinno.Shared.csproj" />
   </ItemGroup>

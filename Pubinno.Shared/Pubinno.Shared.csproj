@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Pubinno.Core\Pubinno.Core.csproj" />
     <ProjectReference Include="..\Pubinno.Models\Pubinno.Models.csproj" />
   </ItemGroup>
 
