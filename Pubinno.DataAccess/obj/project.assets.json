@@ -2866,6 +2866,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Pubinno.Core": "1.0.0",
           "Pubinno.Models": "1.0.0"
         },
         "compile": {

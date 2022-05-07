@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Abstract\" />
-    <Folder Include="PubinnoServices\" />
+    <ProjectReference Include="..\Pubinno.DataAccess\Pubinno.DataAccess.csproj" />
+    <ProjectReference Include="..\Pubinno.Shared\Pubinno.Shared.csproj" />
   </ItemGroup>
 
 </Project>

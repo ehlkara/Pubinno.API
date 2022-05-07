@@ -3159,6 +3159,11 @@
       "Pubinno.BusinessLogic/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
+          "Pubinno.DataAccess": "1.0.0",
+          "Pubinno.Shared": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Pubinno.BusinessLogic.dll": {}
         },
@@ -3214,6 +3219,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Pubinno.Core": "1.0.0",
           "Pubinno.Models": "1.0.0"
         },
         "compile": {
