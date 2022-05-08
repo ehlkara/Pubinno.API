@@ -11,6 +11,7 @@
         LocationCannotDelete = 1007,
         LocationCannotUpdate = 1008,
         LocationNotFound = 1009,
-        LocationsNotFound = 1010
+        LocationsNotFound = 1010,
+        TimeZoneNamesNotFound = 1010
     }
 }

@@ -78,8 +78,6 @@ namespace Pubinno.BusinessLogic.PubinnoServices.LocationService
             }
             catch (Exception ex)
             {
-
-
                 throw new UserFriendlyException((int)ErrorCodes.LocationsNotFound, ErrorMessages.LocationsNotFound, ex.Message);
             }
         }

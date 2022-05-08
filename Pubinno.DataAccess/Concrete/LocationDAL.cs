@@ -21,8 +21,6 @@ namespace Pubinno.DataAccess.Concrete
 
         public async Task<Location> AddLocationAsync(Location location)
         {
-
-
             await _context.Locations.AddAsync(location);
             await _context.SaveChangesAsync();
             return location;

@@ -14,6 +14,7 @@ using Microsoft.OpenApi.Models;
 using Pubinno.BusinessLogic.Abstract;
 using Pubinno.BusinessLogic.Abstract.IUserBLL;
 using Pubinno.BusinessLogic.PubinnoServices.LocationService;
+using Pubinno.BusinessLogic.PubinnoServices.TimeZoneService;
 using Pubinno.BusinessLogic.PubinnoServices.UserServices;
 using Pubinno.Core.Context;
 using Pubinno.DataAccess.Abstract;
@@ -48,6 +49,9 @@ namespace Pubinno.API
 
             services.AddScoped<ILocationDAL, LocationDAL>();
             services.AddScoped<ILocationBLL, LocationBLL>();
+
+            services.AddScoped<ITimeZoneDAL, TimeZoneDAL>();
+            services.AddScoped<ITimeZoneBLL, TimeZoneBLL>();
 
             // For Identity  
             services.AddIdentity<PubinnoUser, PubinnoRole>()

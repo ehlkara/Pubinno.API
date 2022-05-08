@@ -1,5 +1,4 @@
-﻿using Google.Apis.Compute.v1.Data;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Pubinno.Models.Entities.Pubinno;
 using System;

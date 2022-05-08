@@ -12,5 +12,6 @@
         public const string LocationCannotUpdate = "Location cannot updated";
         public const string LocationNotFound = "Location not found";
         public const string LocationsNotFound = "Locations not found";
+        public const string TimeZoneNamesNotFound = "TimeZones not found";
     }
 }
