@@ -10,7 +10,7 @@ using Pubinno.Core.Context;
 namespace Pubinno.Core.Migrations
 {
     [DbContext(typeof(PubinnoDbContext))]
-    [Migration("20220508095309_added_Locations")]
+    [Migration("20220508120551_added_Locations")]
     partial class added_Locations
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -258,32 +258,15 @@ namespace Pubinno.Core.Migrations
                     b.Property<DateTime?>("OpeningTime")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("TimeZoneName")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime?>("UpdatedTime")
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
                     b.ToTable("Location");
-                });
-
-            modelBuilder.Entity("Pubinno.Models.Entities.Pubinno.TimeZone", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int?>("LocationId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("ZoneName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("LocationId");
-
-                    b.ToTable("TimeZone");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
@@ -335,18 +318,6 @@ namespace Pubinno.Core.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("Pubinno.Models.Entities.Pubinno.TimeZone", b =>
-                {
-                    b.HasOne("Pubinno.Models.Entities.Pubinno.Location", null)
-                        .WithMany("TimeZones")
-                        .HasForeignKey("LocationId");
-                });
-
-            modelBuilder.Entity("Pubinno.Models.Entities.Pubinno.Location", b =>
-                {
-                    b.Navigation("TimeZones");
                 });
 #pragma warning restore 612, 618
         }

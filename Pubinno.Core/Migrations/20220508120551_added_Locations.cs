@@ -17,6 +17,7 @@ namespace Pubinno.Core.Migrations
                     Address = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     OpeningTime = table.Column<DateTime>(type: "datetime2", nullable: true),
                     ClosingTime = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    TimeZoneName = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     IsActive = table.Column<bool>(type: "bit", nullable: true),
                     IsDelete = table.Column<bool>(type: "bit", nullable: true),
                     DeletedTime = table.Column<DateTime>(type: "datetime2", nullable: true),
@@ -27,38 +28,10 @@ namespace Pubinno.Core.Migrations
                 {
                     table.PrimaryKey("PK_Location", x => x.Id);
                 });
-
-            migrationBuilder.CreateTable(
-                name: "TimeZone",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    ZoneName = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    LocationId = table.Column<int>(type: "int", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_TimeZone", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_TimeZone_Location_LocationId",
-                        column: x => x.LocationId,
-                        principalTable: "Location",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                });
-
-            migrationBuilder.CreateIndex(
-                name: "IX_TimeZone_LocationId",
-                table: "TimeZone",
-                column: "LocationId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropTable(
-                name: "TimeZone");
-
             migrationBuilder.DropTable(
                 name: "Location");
         }

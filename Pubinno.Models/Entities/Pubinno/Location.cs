@@ -13,6 +13,6 @@ namespace Pubinno.Models.Entities.Pubinno
         public string Address { get; set; }
         public DateTime? OpeningTime { get; set; }
         public DateTime? ClosingTime { get; set; }
-        public List<TimeZone> TimeZones { get; set; }
+        public string TimeZoneName { get; set; }
     }
 }

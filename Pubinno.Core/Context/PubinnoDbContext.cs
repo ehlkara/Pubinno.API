@@ -14,11 +14,14 @@ namespace Pubinno.Core.Context
 
         public DbSet<Location> Locations { get; set; }
 
+        public DbSet<TimeZone> TimeZones { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
 
             builder.Entity<Location>();
+            builder.Entity<TimeZone>();
         }
     }
 }

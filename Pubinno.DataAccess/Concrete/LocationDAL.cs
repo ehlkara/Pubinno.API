@@ -24,10 +24,6 @@ namespace Pubinno.DataAccess.Concrete
         {
             var zoneList = TZConvert.KnownIanaTimeZoneNames;
 
-            Location zone = new Location
-            {
-                TimeZones = (List<Models.Entities.Pubinno.TimeZone>)zoneList,
-            };
 
             await _context.Locations.AddAsync(location);
             await _context.SaveChangesAsync();
@@ -67,7 +63,7 @@ namespace Pubinno.DataAccess.Concrete
             locationResult.Address = location.Address;
             locationResult.OpeningTime = location.OpeningTime;
             locationResult.ClosingTime = location.ClosingTime;
-            locationResult.TimeZones = location.TimeZones;
+            locationResult.TimeZoneName = location.TimeZoneName;
             locationResult.IsActive = location.IsActive = true;
             locationResult.IsDelete = location.IsDelete == false;
             locationResult.UpdatedTime = location.UpdatedTime = DateTime.Now;

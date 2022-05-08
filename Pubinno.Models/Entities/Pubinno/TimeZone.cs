@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Pubinno.Models.Entities.Core;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Pubinno.Models.Entities.Pubinno
 {
-    public class TimeZone
+    [Table("TimeZone")]
+    public class TimeZone : BaseEntity
     {
         public int Id { get; set; }
         public string ZoneName { get; set; }

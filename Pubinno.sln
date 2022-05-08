@@ -5,15 +5,19 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pubinno.API", "Pubinno.API\Pubinno.API.csproj", "{5B53551C-8B45-4073-A477-345FC28C9ABD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pubinno.Shared", "Pubinno.Shared\Pubinno.Shared.csproj", "{E26624CE-BA70-4409-9D89-27B20B624C12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pubinno.Shared", "Pubinno.Shared\Pubinno.Shared.csproj", "{E26624CE-BA70-4409-9D89-27B20B624C12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pubinno.DataAccess", "Pubinno.DataAccess\Pubinno.DataAccess.csproj", "{CF06C656-01AC-4520-9C79-DDCB03C4C9E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pubinno.DataAccess", "Pubinno.DataAccess\Pubinno.DataAccess.csproj", "{CF06C656-01AC-4520-9C79-DDCB03C4C9E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pubinno.Core", "Pubinno.Core\Pubinno.Core.csproj", "{DF5BC6F3-A236-4B36-AB47-FB6F72BF483D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pubinno.Core", "Pubinno.Core\Pubinno.Core.csproj", "{DF5BC6F3-A236-4B36-AB47-FB6F72BF483D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pubinno.BusinessLogic", "Pubinno.BusinessLogic\Pubinno.BusinessLogic.csproj", "{88573120-646E-4762-9AAE-D182E85B8C56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pubinno.BusinessLogic", "Pubinno.BusinessLogic\Pubinno.BusinessLogic.csproj", "{88573120-646E-4762-9AAE-D182E85B8C56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pubinno.Models", "Pubinno.Models\Pubinno.Models.csproj", "{4DB304E4-5411-4C66-9A62-5F406CDD6002}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pubinno.Models", "Pubinno.Models\Pubinno.Models.csproj", "{4DB304E4-5411-4C66-9A62-5F406CDD6002}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{F059DF1A-7A1F-4A4D-B8F7-E87DDE843770}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PubinnoTestAPI.Test", "PubinnoTestAPI.Test\PubinnoTestAPI.Test.csproj", "{4245D4EE-8DF5-49D6-A71A-9A06675E0FE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,9 +49,16 @@ Global
 		{4DB304E4-5411-4C66-9A62-5F406CDD6002}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DB304E4-5411-4C66-9A62-5F406CDD6002}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DB304E4-5411-4C66-9A62-5F406CDD6002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4245D4EE-8DF5-49D6-A71A-9A06675E0FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4245D4EE-8DF5-49D6-A71A-9A06675E0FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4245D4EE-8DF5-49D6-A71A-9A06675E0FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4245D4EE-8DF5-49D6-A71A-9A06675E0FE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4245D4EE-8DF5-49D6-A71A-9A06675E0FE2} = {F059DF1A-7A1F-4A4D-B8F7-E87DDE843770}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {783024F0-E663-40FB-9B7F-C10CDD630BCA}
