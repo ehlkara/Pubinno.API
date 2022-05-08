@@ -1,5 +1,7 @@
 ﻿using Abp.Dependency;
 using AutoMapper;
+using Pubinno.Models.Entities.Pubinno;
+using Pubinno.Shared.PubinnoDTOs;
 
 namespace Pubinno.API.Mapping
 {
@@ -9,7 +11,7 @@ namespace Pubinno.API.Mapping
         {
             using (var scope = IocManager.Instance.CreateScope())
             {
-
+                CreateMap<Location, LocationDto>().ReverseMap();
             }
         }
     }

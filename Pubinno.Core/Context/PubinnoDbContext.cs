@@ -1,11 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Pubinno.Models.Entities.Pubinno;
 using Pubinno.Models.Entities.Pubinno.IdentityAuth;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Pubinno.Core.Context
 {
@@ -16,9 +12,13 @@ namespace Pubinno.Core.Context
 
         }
 
+        public DbSet<Location> Locations { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
+
+            builder.Entity<Location>();
         }
     }
 }

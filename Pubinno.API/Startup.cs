@@ -11,7 +11,9 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Pubinno.BusinessLogic.Abstract;
 using Pubinno.BusinessLogic.Abstract.IUserBLL;
+using Pubinno.BusinessLogic.PubinnoServices.LocationService;
 using Pubinno.BusinessLogic.PubinnoServices.UserServices;
 using Pubinno.Core.Context;
 using Pubinno.DataAccess.Abstract;
@@ -43,6 +45,9 @@ namespace Pubinno.API
 
             services.AddScoped<IUserDAL, UserDAL>();
             services.AddScoped<IUserBLL, UserBLL>();
+
+            services.AddScoped<ILocationDAL, LocationDAL>();
+            services.AddScoped<ILocationBLL, LocationBLL>();
 
             // For Identity  
             services.AddIdentity<PubinnoUser, PubinnoRole>()
