@@ -1,0 +1,5 @@
+Projeyi çalýþtýrmak için ilk önce Pubinno.API projesi içerisinde ki appsettings içerisinde connectionStringi 
+kendi localinizde ki mssql connectionString ile deðiþtirdikten sonra otomatik olarak database oluþacaktýr.
+
+Bu iþlemden sonra gelen restful api içerisinde ki methodlarý test edebilirsiniz. Bu iþlemi gerçekleþtirmek için 
+dilerseniz postman uygulamasýný kullanabilirsiniz. Ekran görüntülerinde olan iþlemleri baz alarak test yapabilirsiniz.
