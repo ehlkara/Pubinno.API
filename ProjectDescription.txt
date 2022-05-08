@@ -1,5 +1,9 @@
-Projeyi çalıştırmak için ilk önce Pubinno.API projesi içerisinde ki appsettings içerisinde connectionStringi 
-kendi localinizde ki mssql connectionString ile değiştirdikten sonra otomatik olarak database oluşacaktır.
+Projeyi Ã§alÄ±ÅŸtÄ±rmak iÃ§in ilk Ã¶nce Pubinno.API projesi iÃ§erisinde ki appsettings iÃ§erisinde connectionStringi 
+kendi localinizde ki mssql connectionString ile deÄŸiÅŸtirdikten sonra otomatik olarak database oluÅŸacaktÄ±r.
 
-Bu işlemden sonra gelen restful api içerisinde ki methodları test edebilirsiniz. Bu işlemi gerçekleştirmek için 
-dilerseniz postman uygulamasını kullanabilirsiniz. Ekran görüntülerinde olan işlemleri baz alarak test yapabilirsiniz.
+Bu iÅŸlemden sonra gelen restful api iÃ§erisinde ki methodlarÄ± test edebilirsiniz. Bu iÅŸlemi gerÃ§ekleÅŸtirmek iÃ§in 
+dilerseniz postman uygulamasÄ±nÄ± kullanabilirsiniz. Ekran gÃ¶rÃ¼ntÃ¼lerinde olan iÅŸlemleri baz alarak test yapabilirsiniz.
+
+Test iÅŸlemi gerÃ§ekleÅŸtirirken Add_Location methodu iÃ§in TimeZoneNames tablosunun iÃ§erisinde ki timezone isimlerini baz alarak
+test edilmelidir. Burada ki durum bir front end olmadÄ±ÄŸÄ±ndan kaynaklÄ± timezoneNames alanÄ±nÄ± buradan doldurulmalÄ±dÄ±r.
+Front end olma durumunu gÃ¶z Ã¶nÃ¼nde bulundurularak TimeZoneNames tablosu iÃ§in get methodu yazÄ±lmÄ±ÅŸtÄ±r. Bu method selectbox iÃ§indir.
