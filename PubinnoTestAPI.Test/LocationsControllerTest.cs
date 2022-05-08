@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Pubinno.Core.Context;
 using Pubinno.Models.Entities.Pubinno;
+using System;
 
 namespace PubinnoTestAPI.Test
 {
@@ -21,7 +22,7 @@ namespace PubinnoTestAPI.Test
                 context.Database.EnsureDeleted();
                 context.Database.EnsureCreated();
 
-                context.Locations.Add(new Location { });
+                context.Locations.Add(new Location { Id = 1, Address="Taksım/Istanbul",OpeningTime=DateTime.Now,ClosingTime=DateTime.UtcNow,TimeZoneName= "Etc/GMT-6" });
                 context.SaveChanges();
             }
         }
