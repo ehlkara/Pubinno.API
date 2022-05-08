@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4I2O9C9sT3KyTf+1V3zw9CSFPsJsD5vXV017S0cOF0Tnp/1KHmU7LCS3TVaEsZz0cpdDSAGeVasrcVT/LH7jMw==",
+  "dgSpecHash": "jkY0/xg+qMxu3t7qWYFp/hHtxISipbwLYIOJbjkumNwcOCike2FJxHT6SnCTO0IYlPuF/OEUN+Zbi2btEBSvsg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.BusinessLogic\\Pubinno.BusinessLogic.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,10 @@
     "C:\\Users\\ehlul\\.nuget\\packages\\castle.core.asyncinterceptor\\2.1.0\\castle.core.asyncinterceptor.2.1.0.nupkg.sha512",
     "C:\\Users\\ehlul\\.nuget\\packages\\castle.loggingfacility\\5.1.1\\castle.loggingfacility.5.1.1.nupkg.sha512",
     "C:\\Users\\ehlul\\.nuget\\packages\\castle.windsor\\5.1.1\\castle.windsor.5.1.1.nupkg.sha512",
+    "C:\\Users\\ehlul\\.nuget\\packages\\google.apis\\1.57.0\\google.apis.1.57.0.nupkg.sha512",
+    "C:\\Users\\ehlul\\.nuget\\packages\\google.apis.auth\\1.57.0\\google.apis.auth.1.57.0.nupkg.sha512",
+    "C:\\Users\\ehlul\\.nuget\\packages\\google.apis.compute.v1\\1.57.0.2666\\google.apis.compute.v1.1.57.0.2666.nupkg.sha512",
+    "C:\\Users\\ehlul\\.nuget\\packages\\google.apis.core\\1.57.0\\google.apis.core.1.57.0.nupkg.sha512",
     "C:\\Users\\ehlul\\.nuget\\packages\\jetbrains.annotations\\2022.1.0\\jetbrains.annotations.2022.1.0.nupkg.sha512",
     "C:\\Users\\ehlul\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.16\\microsoft.aspnetcore.cryptography.internal.5.0.16.nupkg.sha512",
     "C:\\Users\\ehlul\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.16\\microsoft.aspnetcore.cryptography.keyderivation.5.0.16.nupkg.sha512",

@@ -3,8 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Pubinno.Models.Entities.Pubinno
 {
-    [Table("TimeZone")]
-    public class TimeZone : BaseEntity
+    [Table("TimeZoneName")]
+    public class TimeZoneName : BaseEntity
     {
         public int Id { get; set; }
         public string ZoneName { get; set; }

@@ -7,7 +7,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using TimeZoneConverter;
 
 namespace Pubinno.DataAccess.Concrete
 {
@@ -22,7 +21,6 @@ namespace Pubinno.DataAccess.Concrete
 
         public async Task<Location> AddLocationAsync(Location location)
         {
-            var zoneList = TZConvert.KnownIanaTimeZoneNames;
 
 
             await _context.Locations.AddAsync(location);

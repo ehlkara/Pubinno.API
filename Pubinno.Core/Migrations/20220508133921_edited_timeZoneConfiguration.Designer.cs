@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Pubinno.Core.Context;
 
 namespace Pubinno.Core.Migrations
 {
     [DbContext(typeof(PubinnoDbContext))]
-    partial class PubinnoDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220508133921_edited_timeZoneConfiguration")]
+    partial class edited_timeZoneConfiguration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

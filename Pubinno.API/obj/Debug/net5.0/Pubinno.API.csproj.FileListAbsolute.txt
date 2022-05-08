@@ -153,3 +153,8 @@ C:\Users\ehlul\OneDrive\Belgeler\GitHub\Pubinno.API\Pubinno.API\bin\Debug\net5.0
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\Pubinno.API\Pubinno.API\bin\Debug\net5.0\Pubinno.DataAccess.pdb
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\Pubinno.API\Pubinno.API\bin\Debug\net5.0\Pubinno.Shared.dll
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\Pubinno.API\Pubinno.API\bin\Debug\net5.0\Pubinno.Shared.pdb
+C:\Users\ehlul\OneDrive\Belgeler\GitHub\Pubinno.API\Pubinno.API\bin\Debug\net5.0\Google.Apis.dll
+C:\Users\ehlul\OneDrive\Belgeler\GitHub\Pubinno.API\Pubinno.API\bin\Debug\net5.0\Google.Apis.Auth.PlatformServices.dll
+C:\Users\ehlul\OneDrive\Belgeler\GitHub\Pubinno.API\Pubinno.API\bin\Debug\net5.0\Google.Apis.Auth.dll
+C:\Users\ehlul\OneDrive\Belgeler\GitHub\Pubinno.API\Pubinno.API\bin\Debug\net5.0\Google.Apis.Compute.v1.dll
+C:\Users\ehlul\OneDrive\Belgeler\GitHub\Pubinno.API\Pubinno.API\bin\Debug\net5.0\Google.Apis.Core.dll

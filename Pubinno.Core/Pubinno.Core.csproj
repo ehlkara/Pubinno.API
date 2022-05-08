@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="Abp" Version="7.2.0" />
+    <PackageReference Include="Google.Apis.Compute.v1" Version="1.57.0.2666" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.16" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.16">
       <PrivateAssets>all</PrivateAssets>

@@ -10,8 +10,8 @@ using Pubinno.Core.Context;
 namespace Pubinno.Core.Migrations
 {
     [DbContext(typeof(PubinnoDbContext))]
-    [Migration("20220508121634_added_TimeZone")]
-    partial class added_TimeZone
+    [Migration("20220508122441_added_TimeZoneNames")]
+    partial class added_TimeZoneNames
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -269,7 +269,7 @@ namespace Pubinno.Core.Migrations
                     b.ToTable("Location");
                 });
 
-            modelBuilder.Entity("Pubinno.Models.Entities.Pubinno.TimeZone", b =>
+            modelBuilder.Entity("Pubinno.Models.Entities.Pubinno.TimeZoneName", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -296,7 +296,7 @@ namespace Pubinno.Core.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("TimeZone");
+                    b.ToTable("TimeZoneName");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>

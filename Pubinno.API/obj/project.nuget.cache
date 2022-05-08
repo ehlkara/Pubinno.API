@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "omfTdkAcD+dkWAFhsR8Ut1WhwHu/7qwTJcvXet4CZkqINjHiBLsyLb+ISJB+7gv+yXYnnhy4cawP1xKm3Lsp3w==",
+  "dgSpecHash": "jqjx1PPlGojepVmErI0KOuNm8JnUpfn/Y1xN4GfqXjM2rh+Ctxw4W4QbqvG89dA9ZHUpgnIgNUf9jHa3QROt9A==",
   "success": true,
   "projectFilePath": "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\Pubinno.API\\Pubinno.API\\Pubinno.API.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,10 @@
     "C:\\Users\\ehlul\\.nuget\\packages\\castle.core.asyncinterceptor\\2.1.0\\castle.core.asyncinterceptor.2.1.0.nupkg.sha512",
     "C:\\Users\\ehlul\\.nuget\\packages\\castle.loggingfacility\\5.1.1\\castle.loggingfacility.5.1.1.nupkg.sha512",
     "C:\\Users\\ehlul\\.nuget\\packages\\castle.windsor\\5.1.1\\castle.windsor.5.1.1.nupkg.sha512",
+    "C:\\Users\\ehlul\\.nuget\\packages\\google.apis\\1.57.0\\google.apis.1.57.0.nupkg.sha512",
+    "C:\\Users\\ehlul\\.nuget\\packages\\google.apis.auth\\1.57.0\\google.apis.auth.1.57.0.nupkg.sha512",
+    "C:\\Users\\ehlul\\.nuget\\packages\\google.apis.compute.v1\\1.57.0.2666\\google.apis.compute.v1.1.57.0.2666.nupkg.sha512",
+    "C:\\Users\\ehlul\\.nuget\\packages\\google.apis.core\\1.57.0\\google.apis.core.1.57.0.nupkg.sha512",
     "C:\\Users\\ehlul\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ehlul\\.nuget\\packages\\jetbrains.annotations\\2022.1.0\\jetbrains.annotations.2022.1.0.nupkg.sha512",
     "C:\\Users\\ehlul\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.16\\microsoft.aspnetcore.authentication.jwtbearer.5.0.16.nupkg.sha512",

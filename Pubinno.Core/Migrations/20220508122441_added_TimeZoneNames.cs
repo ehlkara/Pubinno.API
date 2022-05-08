@@ -3,12 +3,12 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Pubinno.Core.Migrations
 {
-    public partial class added_TimeZone : Migration
+    public partial class added_TimeZoneNames : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "TimeZone",
+                name: "TimeZoneName",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -22,14 +22,14 @@ namespace Pubinno.Core.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_TimeZone", x => x.Id);
+                    table.PrimaryKey("PK_TimeZoneName", x => x.Id);
                 });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "TimeZone");
+                name: "TimeZoneName");
         }
     }
 }
