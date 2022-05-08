@@ -17,7 +17,22 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pubinno.Models", "Pubinno.M
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{F059DF1A-7A1F-4A4D-B8F7-E87DDE843770}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PubinnoTestAPI.Test", "PubinnoTestAPI.Test\PubinnoTestAPI.Test.csproj", "{4245D4EE-8DF5-49D6-A71A-9A06675E0FE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PubinnoTestAPI.Test", "PubinnoTestAPI.Test\PubinnoTestAPI.Test.csproj", "{4245D4EE-8DF5-49D6-A71A-9A06675E0FE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Description", "Description", "{BCD48340-5A15-4512-B9F0-AFC226201CDC}"
+	ProjectSection(SolutionItems) = preProject
+		ProjectDescription.txt = ProjectDescription.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Screenshots", "Screenshots", "{ECF115A9-F295-4C62-A919-20A0CCBCAF9B}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Masaüstü\Pubinno1.PNG = ..\..\..\Masaüstü\Pubinno1.PNG
+		..\..\..\Masaüstü\Pubinno2.PNG = ..\..\..\Masaüstü\Pubinno2.PNG
+		..\..\..\Masaüstü\Pubinno3.PNG = ..\..\..\Masaüstü\Pubinno3.PNG
+		..\..\..\Masaüstü\Pubinno4.PNG = ..\..\..\Masaüstü\Pubinno4.PNG
+		..\..\..\Masaüstü\Pubinno5.PNG = ..\..\..\Masaüstü\Pubinno5.PNG
+		..\..\..\Masaüstü\Pubinno6.PNG = ..\..\..\Masaüstü\Pubinno6.PNG
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +74,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4245D4EE-8DF5-49D6-A71A-9A06675E0FE2} = {F059DF1A-7A1F-4A4D-B8F7-E87DDE843770}
+		{ECF115A9-F295-4C62-A919-20A0CCBCAF9B} = {BCD48340-5A15-4512-B9F0-AFC226201CDC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {783024F0-E663-40FB-9B7F-C10CDD630BCA}
