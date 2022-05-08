@@ -7,6 +7,6 @@ namespace Pubinno.Models.Entities.Pubinno.IdentityAuth
     {
         public string Name { get; set; }
         public string Surname { get; set; }
-        public UserType UserType { get; set; }
+        public string UserType { get; set; }
     }
 }

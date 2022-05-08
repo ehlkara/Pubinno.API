@@ -60,6 +60,7 @@ namespace Pubinno.DataAccess.Concrete
                 {
                     new Claim(ClaimTypes.Name, user.UserName),
                     new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                    new Claim(ClaimTypes.Role, user.UserType)
                 };
 
                 foreach (var userRole in userRoles)

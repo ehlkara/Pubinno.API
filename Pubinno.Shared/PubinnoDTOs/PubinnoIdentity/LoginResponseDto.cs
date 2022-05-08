@@ -8,6 +8,6 @@ namespace Pubinno.Shared.PubinnoDTOs.PubinnoIdentity
 
         public string FullName { get; set; }
         public string AccessToken { get; set; }
-        public UserType UserType { get; set; }
+        public string UserType { get; set; }
     }
 }

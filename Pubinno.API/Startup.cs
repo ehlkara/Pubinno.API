@@ -20,6 +20,7 @@ using Pubinno.Core.Context;
 using Pubinno.DataAccess.Abstract;
 using Pubinno.DataAccess.Concrete;
 using Pubinno.Models.Entities.Pubinno.IdentityAuth;
+using Pubinno.Models.Enums;
 using Serilog;
 using System;
 using System.Collections.Generic;
@@ -79,6 +80,11 @@ namespace Pubinno.API
                     ValidIssuer = Configuration["JWT:ValidIssuer"],
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["JWT:Secret"]))
                 };
+            });
+
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("admin", policy => policy.RequireRole("admin"));
             });
 
             services.AddCors(option =>

@@ -1,13 +1,14 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using Pubinno.BusinessLogic.Abstract;
 using Pubinno.Core.Helpers;
 using Pubinno.Models.Entities.Pubinno;
+using Pubinno.Models.Enums;
 using Pubinno.Shared.PubinnoDTOs;
 using Pubinno.Shared.Responses;
 using System;
-using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace Pubinno.API.Controllers
@@ -69,6 +70,7 @@ namespace Pubinno.API.Controllers
             }
         }
 
+        [Authorize(Roles = nameof(UserType.admin))]
         [HttpPost("add_location")]
         public async Task<Response<LocationDto>> AddLocation([FromBody] LocationDto locationDto)
         {
@@ -84,6 +86,8 @@ namespace Pubinno.API.Controllers
             }
         }
 
+
+        [Authorize(Roles = nameof(UserType.admin))]
         [HttpPost("update_location")]
         public async Task<Response<LocationDto>> UpdateLocation([FromBody] LocationDto locationDto)
         {
@@ -98,6 +102,8 @@ namespace Pubinno.API.Controllers
                 return await Response<LocationDto>.Catch(new ResponseError { Messages = ex.Message });
             }
         }
+
+        [Authorize(Roles = nameof(UserType.admin))]
         [HttpDelete("delete_location")]
         public async Task<Response<bool>> DeleteLocation([FromBody] int locationId)
         {

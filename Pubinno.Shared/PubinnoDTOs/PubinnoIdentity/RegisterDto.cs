@@ -28,6 +28,6 @@ namespace Pubinno.Shared.PubinnoDTOs.PubinnoIdentity
 
         [Required]
 
-        public UserType Type { get; set; }
+        public string Type { get; set; }
     }
 }
