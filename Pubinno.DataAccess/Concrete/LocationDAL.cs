@@ -29,10 +29,10 @@ namespace Pubinno.DataAccess.Concrete
         public async Task<bool> DeleteLocationAsync(Location location)
         {
             var locationResult = await _context.Locations.FindAsync(location.Id);
-
+            
             locationResult.IsDelete = location.IsDelete = true;
             locationResult.DeletedTime = locationResult.DeletedTime = DateTime.Now;
-
+            locationResult.IsActive = locationResult.IsActive = false;
             _context.Locations.Update(location);
             await _context.SaveChangesAsync();
 
@@ -61,7 +61,7 @@ namespace Pubinno.DataAccess.Concrete
             locationResult.ClosingTime = location.ClosingTime;
             locationResult.TimeZoneName = location.TimeZoneName;
             locationResult.IsActive = location.IsActive = true;
-            locationResult.IsDelete = location.IsDelete == false;
+            locationResult.IsDelete = location.IsDelete = false;
             locationResult.UpdatedTime = location.UpdatedTime = DateTime.Now;
 
             _context.Locations.Update(locationResult);

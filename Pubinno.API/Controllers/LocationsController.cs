@@ -88,7 +88,7 @@ namespace Pubinno.API.Controllers
 
 
         [Authorize(Roles = nameof(UserType.admin))]
-        [HttpPost("update_location")]
+        [HttpPut("update_location")]
         public async Task<Response<LocationDto>> UpdateLocation([FromBody] LocationDto locationDto)
         {
             try
